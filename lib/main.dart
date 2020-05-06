@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.white,
         accentColor: Color(0xFF8C4A7B),
       ),
+      
       home: MenuScreen(),
     );
   }

@@ -1,4 +1,5 @@
 import 'package:duck_fil_a_ui/models/menu.dart';
+import 'package:duck_fil_a_ui/screens/meal_detail.dart';
 import 'package:duck_fil_a_ui/widgets/circle_tab_indicator.dart';
 import 'package:flutter/material.dart';
 
@@ -102,22 +103,34 @@ class MenuScreen extends StatelessWidget {
                         itemCount: tabMenu.length,
                         itemBuilder: (context, ind) {
                           Meal meal = tabMenu[i].meals[ind];
-                          return Column(
-                            children: <Widget>[
-                              Image(
-                                height: 450.0,
-                                fit: BoxFit.contain,
-                                image: AssetImage(meal.imagePath),
-                              ),
-                              Align(
-                                  alignment: Alignment.center,
-                                  child: Text(
-                                    meal.name,
-                                    style: TextStyle(
-                                      color: accentColor,
-                                    ),
-                                  )),
-                            ],
+                          return InkWell(
+                            onTap: () {
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (context) => MealDetail(meal),
+                                ),
+                              );
+                            },
+                            child: Column(
+                              children: <Widget>[
+                                Hero(
+                                  tag: meal.imagePath,
+                                                                  child: Image(
+                                    height: 450.0,
+                                    fit: BoxFit.contain,
+                                    image: AssetImage(meal.imagePath),
+                                  ),
+                                ),
+                                Align(
+                                    alignment: Alignment.center,
+                                    child: Text(
+                                      meal.name,
+                                      style: TextStyle(
+                                        color: accentColor,
+                                      ),
+                                    )),
+                              ],
+                            ),
                           );
                         },
                       ),
