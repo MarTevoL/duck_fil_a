@@ -15,4 +15,4 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-![ScreenShot](https://github.com/MarTevoL/duck_fil_a_ui/blob/master/assets/images/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202020-05-06%20at%2016.01.37.png?raw=true "Optional Title")
+![ScreenShot](https://github.com/MarTevoL/duck_fil_a_ui/blob/master/assets/images/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202020-05-06%20at%2016.01.37.png?raw=true "Optional Title" width="400" height="790")
