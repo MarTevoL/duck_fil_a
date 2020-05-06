@@ -17,4 +17,4 @@ samples, guidance on mobile development, and a full API reference.
 
 
 
-<img src="https://github.com/MarTevoL/duck_fil_a_ui/blob/master/assets/images/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202020-05-06%20at%2016.01.37.png" alt="drawing" width="200"/><img src="https://github.com/MarTevoL/duck_fil_a_ui/blob/master/assets/images/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202020-05-06%20at%2016.01.41.png" alt="drawing" width="200"/>
+<img src="https://user-images.githubusercontent.com/28495179/81163463-ff684780-8fb8-11ea-8999-a5f0fd58bbd4.png" alt="drawing" width="200"/><img src="https://user-images.githubusercontent.com/28495179/81163555-26bf1480-8fb9-11ea-8471-3ca23577eb7b.png" alt="drawing" width="200"/>
